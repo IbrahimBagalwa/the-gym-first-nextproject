@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![the-gym-first-nextproject - desktop-page]()
+![the-gym-first-nextproject - desktop-page](./public/home.PNG)
 
 ### Links
 
