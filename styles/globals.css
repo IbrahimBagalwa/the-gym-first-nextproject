@@ -155,6 +155,12 @@ a {
   left: 350px;
   top: 500px;
 }
+.cont,
+.serv,
+.proj {
+  background: white;
+  height: 50vh;
+}
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
