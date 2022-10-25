@@ -1,3 +1,5 @@
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 # the-gym-first-nextproject
 
 ## Welcome! 👋
@@ -8,13 +10,13 @@ In this exercise, we will use nextjs and css, Only clone the "Home" and "About" 
 ## Content
 
 - [the-gym-first-nextproject](#the-gym-first-nextproject)
-  - [Welcome! 👋](#welcome)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [My process](#my-process)
-  - [Author](#author)
-  - [Connect Us:](#connect-us)
+- [Welcome! 👋](#welcome)
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [My process](#my-process)
+- [Author](#author)
+- [Connect Us:](#connect-us)
 
 ### The challenge
 
@@ -32,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [the-gym-first-nextproject]()
+- Live Site URL Open [buildit]() with your browser to see the result.
 
 ## My process
 
