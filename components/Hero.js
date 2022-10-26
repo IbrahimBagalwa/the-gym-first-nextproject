@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './Hero.module.css';
 import Button from './Button';
+import Image from 'next/image';
 export default function Hero({ title, description, imgs, gradient }) {
   return (
     <section className={styles.hero}>
-      <img className={styles.gradient} src={gradient} />
+      <Image className={styles.gradient} src={gradient} />
       <div className={styles.container}>
         <div className={styles.description}>
           <h1>{title}</h1>
@@ -15,7 +16,7 @@ export default function Hero({ title, description, imgs, gradient }) {
           </div>
         </div>
         <div className={styles.images}>
-          <img src={imgs} />
+          <Image src={imgs} />
         </div>
       </div>
     </section>
