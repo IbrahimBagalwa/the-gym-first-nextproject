@@ -18,7 +18,13 @@ export default function Form() {
       <section className={classes.formcontent}>
         <div className={classes.formcon}>
           <div className={classes.contacts}>
-            <Image className={classes.icon} src='images/phone.svg' alt='' />
+            <Image
+              width={60}
+              height={40}
+              className={classes.icon}
+              src='/images/phone.svg'
+              alt=''
+            />
             <div className={classes.contact}>
               <span>Tel</span>
               <br />
@@ -26,7 +32,7 @@ export default function Form() {
             </div>
           </div>
           <div className={classes.contacts}>
-            <Image className={classes.icon} src='images/mail.svg' alt='' />
+            <Image width={60} height={40} src='/images/mail.svg' alt='' />
             <div>
               <span>Email</span>
               <br />
@@ -34,13 +40,11 @@ export default function Form() {
             </div>
           </div>
           <div className={classes.contacts}>
-            <Image className={classes.icon} src='images/mail.svg' alt='' />
+            <Image width={60} height={40} src='/images/mail.svg' alt='' />
             <div>
               <span>Office</span>
               <br />
               <span>60 Manor Station St.</span>
-              <br />
-              <span>Fairport, NY 14450</span>
             </div>
           </div>
         </div>

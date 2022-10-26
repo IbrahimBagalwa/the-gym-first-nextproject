@@ -13,7 +13,7 @@
   margin-left: 6rem;
   align-items: center;
 }
-.card div > Image {
+.card div > img {
   width: 40px;
 }
 .card div > p {

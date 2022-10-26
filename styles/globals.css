@@ -75,7 +75,7 @@ a {
 .mbr-ind span {
   padding: 5px;
 }
-.mbr-ind Image {
+.mbr-ind img {
   width: 200px;
 }
 .user {
@@ -155,18 +155,3 @@ a {
   left: 350px;
   top: 500px;
 }
-.cont,
-.serv,
-.proj {
-  background: white;
-  height: 50vh;
-}
-/* @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-} */

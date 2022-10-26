@@ -1,14 +1,15 @@
-import Image from 'next/image';
 import React from 'react';
 import Button from '../components/Button';
+import Hero from '../components/Hero';
 import Partner from '../components/Partner';
+import classes from '../components/Partner.module.css';
 export default function About() {
   return (
     <>
       <div className='hero'>
         <div>
-          <Image className='img-p' src='images/h-1.svg' alt='' />
-          <Image className='img-s' src='images/h-2.svg' alt='' />
+          <img className='img-p' src='images/h-1.svg' alt='' />
+          <img className='img-s' src='images/h-2.svg' alt='' />
         </div>
         <div className='h-desc'>
           <span className='sp'>About us</span>
@@ -28,7 +29,7 @@ export default function About() {
         <h2 className='dev'>Development in numbers</h2>
         <div className='stats'>
           <div className='stat'>
-            <Image className='stat-ico' src='images/st.svg' alt='' />
+            <img className='stat-ico' src='images/st.svg' alt='' />
             <div className='detail'>
               <span>200</span>
               <br />
@@ -36,7 +37,7 @@ export default function About() {
             </div>
           </div>
           <div className='stat'>
-            <Image className='stat-ico' src='images/st.svg' alt='' />
+            <img className='stat-ico' src='images/st.svg' alt='' />
             <div className='detail'>
               <span>200</span>
               <br />
@@ -44,7 +45,7 @@ export default function About() {
             </div>
           </div>
           <div className='stat'>
-            <Image className='stat-ico' src='images/st.svg' alt='' />
+            <img className='stat-ico' src='images/st.svg' alt='' />
             <div>
               <span>200</span>
               <br />
@@ -59,47 +60,47 @@ export default function About() {
         <h2 className='dev'>Let’s meet</h2>
         <div className='card-mbr'>
           <div className='mbr-ind'>
-            <Image src='images/mb.svg' alt='' />
+            <img src='images/mb.svg' alt='' />
             <span className='user'>Name Surname</span>
             <span className='job'>Worker</span>
           </div>
           <div className='mbr-ind'>
-            <Image src='images/mb1.svg' alt='' />
+            <img src='images/mb1.svg' alt='' />
             <span className='user'>Name Surname</span>
             <span className='job'>Worker</span>
           </div>
           <div className='mbr-ind'>
-            <Image src='images/mb2.svg' alt='' />
+            <img src='images/mb2.svg' alt='' />
             <span className='user'>Name Surname</span>
             <span className='job'>Worker</span>
           </div>
           <div className='mbr-ind'>
-            <Image src='images/mb3.svg' alt='' />
+            <img src='images/mb3.svg' alt='' />
             <span className='user'>Name Surname</span>
             <span className='job'>Worker</span>
           </div>
           <div className='mbr-ind'>
-            <Image src='images/mb4.svg' alt='' />
+            <img src='images/mb4.svg' alt='' />
             <span className='user'>Name Surname</span>
             <span className='job'>Worker</span>
           </div>
           <div className='mbr-ind'>
-            <Image src='images/mb5.svg' alt='' />
+            <img src='images/mb5.svg' alt='' />
             <span className='user'>Name Surname</span>
             <span className='job'>Worker</span>
           </div>
           <div className='mbr-ind'>
-            <Image src='images/mb6.svg' alt='' />
+            <img src='images/mb6.svg' alt='' />
             <span className='user'>Name Surname</span>
             <span className='job'>Worker</span>
           </div>
           <div className='mbr-ind'>
-            <Image src='images/mb7.svg' alt='' />
+            <img src='images/mb7.svg' alt='' />
             <span className='user'>Name Surname</span>
             <span className='job'>Worker</span>
           </div>
           <div className='mbr-ind'>
-            <Image src='images/mb8.svg' alt='' />
+            <img src='images/mb8.svg' alt='' />
             <span className='user'>Name Surname</span>
             <span className='job'>Worker</span>
           </div>

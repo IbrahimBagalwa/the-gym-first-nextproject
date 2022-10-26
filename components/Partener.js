@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import React from 'react';
 import Button from './Button';
 import Form from './Form';
@@ -10,7 +9,7 @@ export default function Partener() {
       <section className={classes.partner}>
         <Partner />
         <div className={classes.content}>
-          <Image src='images/oto.svg' alt='' />
+          <img src='images/oto.svg' alt='' />
           <div>
             <span>About us</span>
             <h2>Owner and investor with a reputation</h2>
@@ -41,7 +40,7 @@ export default function Partener() {
               <Button title='Explore' />
             </div>
             <section className={classes.card}>
-              <Image src='images/images.PNG' alt='' />
+              <img src='images/images.PNG' alt='' />
             </section>
           </div>
         </section>
@@ -49,12 +48,12 @@ export default function Partener() {
           <span>Socials</span>
           <h2>On Instagram</h2>
           <div className={classes.imgs}>
-            <Image src='images/c1.svg' alt='' />
-            <Image src='images/c2.svg' alt='' />
-            <Image src='images/c3.svg' alt='' />
-            <Image src='images/c4.svg' alt='' />
-            <Image src='images/c5.svg' alt='' />
-            <Image src='images/c6.svg' alt='' />
+            <img src='images/c1.svg' alt='' />
+            <img src='images/c2.svg' alt='' />
+            <img src='images/c3.svg' alt='' />
+            <img src='images/c4.svg' alt='' />
+            <img src='images/c5.svg' alt='' />
+            <img src='images/c6.svg' alt='' />
           </div>
         </section>
       </section>
