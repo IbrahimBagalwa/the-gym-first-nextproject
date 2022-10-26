@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 import Button from './Button';
 import classes from './Partner.module.css';
@@ -17,7 +18,7 @@ export default function Form() {
       <section className={classes.formcontent}>
         <div className={classes.formcon}>
           <div className={classes.contacts}>
-            <img className={classes.icon} src='images/phone.svg' alt='' />
+            <Image className={classes.icon} src='images/phone.svg' alt='' />
             <div className={classes.contact}>
               <span>Tel</span>
               <br />
@@ -25,7 +26,7 @@ export default function Form() {
             </div>
           </div>
           <div className={classes.contacts}>
-            <img className={classes.icon} src='images/mail.svg' alt='' />
+            <Image className={classes.icon} src='images/mail.svg' alt='' />
             <div>
               <span>Email</span>
               <br />
@@ -33,7 +34,7 @@ export default function Form() {
             </div>
           </div>
           <div className={classes.contacts}>
-            <img className={classes.icon} src='images/mail.svg' alt='' />
+            <Image className={classes.icon} src='images/mail.svg' alt='' />
             <div>
               <span>Office</span>
               <br />
