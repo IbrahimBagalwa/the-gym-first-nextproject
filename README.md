@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL Open [buildit]() with your browser to see the result.
+- Live Site URL Open [buildit](https://the-gym-first-nextproject-p63v.vercel.app/) with your browser to see the result.
 
 ## My process
 
