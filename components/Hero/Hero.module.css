@@ -1,0 +1,41 @@
+.btns {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 4rem;
+}
+.hero {
+  width: 500px;
+  position: relative;
+  padding-bottom: 6rem;
+}
+.hero h1 {
+  font-size: 4rem;
+  line-height: 60px;
+  color: #486a6f;
+}
+.container {
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+  z-index: 999;
+}
+.description {
+  margin-left: 6rem;
+  align-self: center;
+}
+.images {
+  margin-top: 2rem;
+  z-index: 999;
+}
+.hero p {
+  font-size: 20px;
+  color: #678c92;
+}
+.gradient {
+  position: absolute;
+  left: 523px;
+  top: -130px;
+}
+.home {
+  background: #f4f7ff;
+}

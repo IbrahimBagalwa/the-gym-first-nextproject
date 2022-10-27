@@ -1,0 +1,25 @@
+.home {
+  background: #f4f7ff;
+  color: #486a6f;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.home h1 {
+  margin-left: 6rem;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 6rem;
+  align-items: center;
+}
+.card div > img {
+  width: 40px;
+}
+.card div > p {
+  font-size: 1rem;
+  padding-right: 4rem;
+}
+.bod {
+  background: linear-gradient(42.43deg, #c6dbff 0%, #e1ebfa 52.25%);
+}

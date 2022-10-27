@@ -1,0 +1,20 @@
+.btn {
+  align-items: center;
+  padding: 10px 25px;
+  color: #f4f7ff;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  background: linear-gradient(
+      104.26deg,
+      rgba(67, 151, 164, 0.2) 0.88%,
+      rgba(91, 204, 222, 0.2) 99.89%
+    ),
+    #4397a4;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  z-index: 999;
+}
