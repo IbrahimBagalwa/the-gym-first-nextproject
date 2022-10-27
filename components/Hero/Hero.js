@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Hero.module.css';
-import Button from './Button';
+import Button from '../Button/Button';
 export default function Hero({ title, description, imgs, gradient }) {
   return (
     <section className={styles.hero}>

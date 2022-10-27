@@ -1,6 +1,6 @@
 import React from 'react';
-import Button from './Button';
-import Form from './Form';
+import Button from '../Button/Button';
+import Form from '../FormInput/Form';
 import Partner from './Partner';
 import classes from './Partner.module.css';
 export default function Partener() {

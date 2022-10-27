@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import Button from '../Button';
-import Hero from '../Hero';
+import Button from '../Button/Button';
 import classes from './Header.module.css';
 export default function Header({ logo, titles }) {
   const { list1, list2, list3, list4 } = titles;

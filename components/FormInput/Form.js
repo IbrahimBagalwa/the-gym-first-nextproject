@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
-import Button from './Button';
-import classes from './Partner.module.css';
+import Button from '../Button/Button';
+import classes from '../Partner/Partner.module.css';
 function InputContent({ title, pad }) {
   return (
     <div className={classes.inputcontent}>

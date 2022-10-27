@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Home.module.css';
+import classes from '../../styles/Home.module.css';
 export default function Inovation() {
   return (
     <div className={classes.home}>

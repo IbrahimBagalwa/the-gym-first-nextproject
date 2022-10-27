@@ -1,8 +1,6 @@
 import React from 'react';
-import Button from '../components/Button';
-import Hero from '../components/Hero';
-import Partner from '../components/Partner';
-import classes from '../components/Partner.module.css';
+import Button from '../components/Button/Button';
+import Partner from '../components/Partner/Partner';
 export default function About() {
   return (
     <>
